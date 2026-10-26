@@ -1,6 +1,6 @@
 # TAR-CSS 논문 데모 페이지 초안
 
-기존 논문 데모 초안을 옮긴 저장소: [johnny9696/TAR-CSS_DEMO](https://github.com/johnny9696/TAR-CSS_DEMO).
+기존 논문 데모 초안을 옮긴 저장소: [[johnny9696/TAR-CSS_DEMO](https://github.com/johnny9696/TAR-CSS_DEMO](https://johnny9696.github.io/TAR-CSS_DEMO/)).
 
 `index.html`을 브라우저에서 열면 됩니다. 설치·빌드 없이 동작하며, GitHub Pages에 올릴 수 있도록 상대 경로만 사용합니다. **현재는 결과표와 페이지 구성이 들어 있는 초안입니다. 제목·저자·초록·대표 그림·음성 샘플은 아직 미입력입니다.**
 
