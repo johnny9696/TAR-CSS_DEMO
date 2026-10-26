@@ -17,11 +17,11 @@ Speech Samples는 두 개의 독립된 섹션입니다. 각 섹션 내부에 Dai
 
 두 섹션의 샘플은 `samples.naturalness`와 `samples.dialogue`로 독립 관리합니다. 모델명에는 재학습 여부 등 부가 설명을 붙이지 않습니다. 평가용 MOS/D-MOS 페이지의 문항 수·저장 방식은 변경하지 않습니다.
 
-Results에는 사용자가 최종 수치로 지정한 `TAR_CSS_TASLP-6.pdf`의 Tables I–V (5–6쪽)를 반영했습니다. DailyTalk mel-level, DailyTalk waveform-level, NCSSD, missing-modality, task/filtering ablation의 5개 표이며, 208개 객관 수치를 소수점 네 자리로 표시합니다. 모델 순서는 논문과 동일하며 최종 모델 이름은 TAR-CSS입니다. `site-content.js`의 `results.tables[].metricKeys`와 `rows` 순서가 대응합니다. 논문 표에 없는 n, CER, V/UV, 상대 duration 등을 다른 실험에서 임의로 채우지 않았고, Duration MAE를 발화 길이의 초 단위 MAE로 바꾸지 않았습니다.
+Results에는 사용자가 지정한 Tables I–V의 수치를 반영했습니다. DailyTalk mel-level, DailyTalk waveform-level, NCSSD, missing-modality, task/filtering ablation의 5개 표이며, 208개 객관 수치를 소수점 네 자리로 표시합니다. 모델 순서는 논문과 동일하며 최종 모델 이름은 TAR-CSS입니다. `site-content.js`의 `results.tables[].metricKeys`와 `rows` 순서가 대응합니다. 논문 표에 없는 n, CER, V/UV, 상대 duration 등을 다른 실험에서 임의로 채우지 않았고, Duration MAE를 발화 길이의 초 단위 MAE로 바꾸지 않았습니다.
 
 MOS/D-MOS 청취 평가 표는 미입력 상태로 유지합니다. `—`는 미입력입니다. 확정된 청취 결과는 `results.listening.rows[모델명]`에 입력합니다. 로컬 UI 테스트 점수를 논문 결과로 사용하지 마세요. 이번 갱신은 객관 수치 입력이며, 논문 이미지·음성 샘플은 변경하지 않았습니다.
 
-논문 PDF는 제공되었으며, 제목·저자·초록·그림·음성의 페이지 입력 자리는 기존 상태로 유지했습니다. 비어 있는 논문 정보나 청취 결과를 임의로 작성하지 않았습니다.
+논문 PDF는 공개 저장소에 포함하지 않습니다. 제목·저자·초록·그림·음성의 페이지 입력 자리는 기존 상태로 유지했습니다. 비어 있는 논문 정보나 청취 결과를 임의로 작성하지 않았습니다.
 
 ## 내용 입력
 
